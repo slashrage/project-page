@@ -1,26 +1,70 @@
 body {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: navy;
-    color: white;
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+.logo { 
+    height: 130px;
+    width: 400px;
 }
 
 .links {
-    font-family: monospace;
+    font-size: 18px;
+    flex: 1 1 auto;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .content {
-    background-color: navy;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    background-color: #1f2937;
+    font-size: 48px;
+    font-family: "roboto";
+    font-weight: bolder;
+    color: #F9FAF8;
+    gap: 20px;
+}
+
+.deep-rock {
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
+    gap: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: grey;
+    margin-top: 10px;
+}
+
+.content1 {
+    display: flex;
+    justify-content: center;
+}
+
+.content2 {
+    padding: 10px;
+    font-size: 15px;
+    flex-shrink: 1;
 }
