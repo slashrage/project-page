@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    color: white;
+}
+
+.links {
+    font-family: monospace;
+}
+
+.content {
+    background-color: navy;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
